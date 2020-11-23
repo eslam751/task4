@@ -1,0 +1,47 @@
+Dependencies for Project 'Mcu_Driver', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6140001::V6.14.1::ARMCLANG
+F (.\SRC\Mcal\Mcu.c)(0x5FB92D88)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./SRC/Mcal/inc -I ./SRC/common -I ./SRC/Config-I./RTE/_Target_1-I"C:/Users/Nadia Hamed/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include"-I"C:/Users/Nadia Hamed/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="532" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/mcu.o -MD)
+I (SRC\Mcal\inc\Mcu.h)(0x5FB92D88)
+I (SRC\common\Mcu_Hw.h)(0x5FB92D88)
+I (SRC\common\Platform_Types.h)(0x5F19A125)
+I (SRC\Config\Mcu_Cfg.h)(0x5FB9291D)
+I (SRC\common\Std_Types.h)(0x5F19A125)
+I (SRC\common\Compiler.h)(0x5F19A125)
+I (SRC\common\BitOperations.h)(0x5FB3E2F7)
+F (.\SRC\Config\Mcu_Lcfg.c)(0x5FB91DAE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./SRC/Mcal/inc -I ./SRC/common -I ./SRC/Config-I./RTE/_Target_1-I"C:/Users/Nadia Hamed/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include"-I"C:/Users/Nadia Hamed/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="532" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/mcu_lcfg.o -MD)
+I (SRC\Config\Mcu_Cfg.h)(0x5FB9291D)
+I (SRC\Mcal\inc\Mcu.h)(0x5FB92D88)
+I (SRC\common\Mcu_Hw.h)(0x5FB92D88)
+I (SRC\common\Platform_Types.h)(0x5F19A125)
+I (SRC\common\Std_Types.h)(0x5F19A125)
+I (SRC\common\Compiler.h)(0x5F19A125)
+I (SRC\common\BitOperations.h)(0x5FB3E2F7)
+F (.\SRC\AppI\MainApp.c)(0x5FB92E60)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./SRC/Mcal/inc -I ./SRC/common -I ./SRC/Config-I./RTE/_Target_1-I"C:/Users/Nadia Hamed/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include"-I"C:/Users/Nadia Hamed/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="532" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/mainapp.o -MD)
+I (SRC\common\Std_Types.h)(0x5F19A125)
+I (SRC\common\Platform_Types.h)(0x5F19A125)
+I (SRC\common\Compiler.h)(0x5F19A125)
+I (SRC\Mcal\inc\Mcu.h)(0x5FB92D88)
+I (SRC\common\Mcu_Hw.h)(0x5FB92D88)
+I (SRC\Config\Mcu_Cfg.h)(0x5FB9291D)
+I (SRC\common\BitOperations.h)(0x5FB3E2F7)
+F (.\SRC\AppI\S04_McuUser.c)(0x5FB92D88)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./SRC/Mcal/inc -I ./SRC/Mcal/inc -I ./SRC/common -I ./SRC/Config-I./RTE/_Target_1-I"C:/Users/Nadia Hamed/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include"-I"C:/Users/Nadia Hamed/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="532" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/s04_mcuuser.o -MD)
+I (SRC\Mcal\inc\Mcu.h)(0x5FB92D88)
+I (SRC\common\Mcu_Hw.h)(0x5FB92D88)
+I (SRC\common\Platform_Types.h)(0x5F19A125)
+I (SRC\Config\Mcu_Cfg.h)(0x5FB9291D)
+I (SRC\common\Std_Types.h)(0x5F19A125)
+I (SRC\common\Compiler.h)(0x5F19A125)
+I (SRC\common\BitOperations.h)(0x5FB3E2F7)
+F (RTE\Device\TM4C123GH6PM\startup_TM4C123.s)(0x51B6E406)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-3 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-I"C:/Users/Nadia Hamed/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include"-I"C:/Users/Nadia Hamed/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-Wa,armasm,--pd,"__UVISION_VERSION SETA 532" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_tm4c123.o)
+F (RTE\Device\TM4C123GH6PM\system_TM4C123.c)(0x550A65DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-I"C:/Users/Nadia Hamed/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include"-I"C:/Users/Nadia Hamed/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="532" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/system_tm4c123.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (C:\Users\Nadia Hamed\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
+I (C:\Users\Nadia Hamed\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (C:\Users\Nadia Hamed\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F2582)
+I (C:\Users\Nadia Hamed\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\Nadia Hamed\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Nadia Hamed\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
+I (C:\Users\Nadia Hamed\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F2582)
+I (C:\Users\Nadia Hamed\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6E406)
